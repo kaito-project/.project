@@ -1,0 +1,71 @@
+# .project metadata for KAITO
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kaito"
+name: "KAITO"
+description: "Kubernetes AI Toolchain Operator (KAITO) simplifies LLM inference, tuning, and RAG workloads on Kubernetes."
+type: "project"
+project_lead: "Fei-Guo" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#kaito"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-10-17T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/298" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kaito-project/kaito"
+
+website: "https://kaito-project.netlify.app/"
+
+artwork: "https://landscape.cncf.io/logos/kaito.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kaito-project/kaito/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kaito-project/kaito"
+
+
+security:
+  policy:
+    path: "https://github.com/kaito-project/kaito/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kaito-project/kaito/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kaito-project/kaito/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kaito-project/kaito/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kaito-project/kaito/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kaito-project/kaito/blob/main/README.md"
+
+landscape:
+  category: "Inference"
+  subcategory: "Framework"
+
+# CLOMonitor Score: 60/100
+# Documentation: 90 | License: 25 | Best Practices: 32 | Security: 68
