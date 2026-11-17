@@ -26,7 +26,7 @@ repositories:
 
 website: "https://kaito-project.netlify.app/"
 
-artwork: "https://landscape.cncf.io/logos/kaito.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/kaito"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
